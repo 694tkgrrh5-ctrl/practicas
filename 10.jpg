@@ -1,0 +1,13 @@
+
+<!-- saved from url=(0055)file:///C:/Users/katie/Desktop/CLAUPRACTICAS/eje10.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Atributo ALT</title>
+</head>
+<body>
+
+<h1>Utilización de atributo ALT en imágenes</h1>
+
+<img alt="Imagen Dark Vader" src="./10_files/kos.jpg">
+
+
+</body></html>

@@ -1,0 +1,14 @@
+
+<!-- saved from url=(0054)file:///C:/Users/katie/Desktop/CLAUPRACTICAS/eje5.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Estilo de fuente</title>
+</head>
+<body>
+<h1>Utilización de estilo de fuente</h1>
+<p>
+<font face="Algerian">
+Este párrafo ha formateado su fuente con la etiqueta font.
+</font>
+</p>
+
+</body></html>
