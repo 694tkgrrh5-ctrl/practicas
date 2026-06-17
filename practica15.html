@@ -1,0 +1,44 @@
+<html>
+<body>
+
+<h1>Práctica 15</h1>
+
+<h2>Sistema de Inicio de Sesión</h2>
+
+<img src="prac15.JPG" width="800" alt="Práctica 15">
+<img src="prac155.JPG" width="800" alt="Práctica 15">
+
+<h3>¿Qué hice?</h3>
+
+<p>
+En esta práctica agregué un sistema de inicio de sesión para proteger la información.
+Creé una tabla llamada Usuarios donde se guardaban los nombres de usuario y contraseñas.
+Después desarrollé una pantalla de login donde el usuario debía ingresar sus datos para acceder al sistema.
+Si el usuario escribía correctamente sus credenciales, podía entrar; si no, aparecía un mensaje de error.
+También agregué una opción para cerrar sesión.
+</p>
+
+<h3>Comandos utilizados</h3>
+
+<ul>
+<li>session_start();</li>
+<li>isset();</li>
+<li>prepare();</li>
+<li>execute();</li>
+<li>header();</li>
+<li>exit();</li>
+<li>session_unset();</li>
+<li>session_destroy();</li>
+</ul>
+
+<h3>Consulta SQL utilizada</h3>
+
+<pre>
+SELECT COUNT(*)
+FROM Usuarios
+WHERE Usuario = :user
+AND Clave = :pass;
+</pre>
+
+</body>
+</html>
