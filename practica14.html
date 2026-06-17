@@ -1,0 +1,34 @@
+<html>
+<body>
+
+<h1>Práctica 14</h1>
+
+<h2>Manejo y Validacion de informacion de una B.D mediante pagina web </h2>
+
+<img src="prac14.JPG" width="800" alt="Práctica 14">
+<img src="prac14.JPG" width="800" alt="Práctica 14">
+
+
+
+<h2>¿Qué hice?</h2>
+<p>
+En esta práctica creé un formulario web para registrar nuevos miembros en una base de datos de Access.
+El formulario solicitaba el nombre, apellido y correo electrónico del usuario.
+Además, se implementaron validaciones para evitar campos vacíos, verificar que el correo tuviera un formato correcto y evitar registros duplicados.
+Cuando toda la información era válida, los datos se guardaban automáticamente en la base de datos.
+</p>
+
+<h2>Comandos utilizados</h2>
+<ul>
+    <li><b>trim()</b>: Limpia espacios innecesarios en los datos ingresados.</li>
+    <li><b>empty()</b>: Verifica que los campos no estén vacíos.</li>
+    <li><b>filter_var()</b>: Valida que el correo electrónico tenga un formato correcto.</li>
+    <li><b>PDO</b>: Permite conectar PHP con la base de datos Access.</li>
+    <li><b>prepare()</b>: Prepara las consultas SQL.</li>
+    <li><b>execute()</b>: Ejecuta las consultas.</li>
+    <li><b>SELECT COUNT(*)</b>: Comprueba si el correo ya existe en la base de datos.</li>
+    <li><b>INSERT INTO</b>: Guarda un nuevo registro en la tabla de miembros.</li>
+    <li><b>date()</b>: Registra la fecha y hora del nuevo miembro.</li>
+</ul>
+</body>
+</html>
