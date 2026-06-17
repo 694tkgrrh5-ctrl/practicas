@@ -1,41 +1,29 @@
 <html>
 <body>
-  
-<head>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-  
+
 <h1>Práctica 13</h1>
 
-<details>
-<summary>Conexion de BD</summary>
-<br><br>
-<img src="prac13.jpg.JPG" width="800">
+<h2>Conexión de Access con una Página Web</h2>
+
+<img src="prac13.JPG" width="800" alt="Práctica 13">
+
+<h3>¿Qué hice?</h3>
 
 <p>
-<b>¿Qué se hizo?</b><br>
-conecté la base de datos de Access con una página web utilizando PHP.
-Primero configuré una conexión ODBC para que Windows pudiera encontrar la base de datos. Después creé una página web que mostraba automáticamente la información guardada en la tabla de miembros.
+En esta práctica conecté la base de datos de Access con una página web utilizando PHP.
+Primero configuré una conexión ODBC para que Windows pudiera encontrar la base de datos.
+Después creé una página web que mostraba automáticamente la información guardada en la tabla de miembros.
 Cuando agregaba nuevos registros en Access, estos aparecían en la página web al actualizarla.
-
-<br><br>
-<b>Comando utilizados:</b><br>
-PHP
- $dsn = "odbc:dsn_gimnasio";
-new PDO();
-prepare();
-execute();
-fetch();
-htmlspecialchars();
-date();
-
-  SQL
-  SELECT ID_Miembro, Nombre, Apellido, Email, Fecha_Registro
-FROM Miembros;
 </p>
-</details>
 
+<h3>Comandos utilizados</h3>
 
+<ul>
+<li>PDO para conectarse a la base de datos.</li>
+<li>SELECT para consultar información.</li>
+<li>prepare() para preparar consultas.</li>
+<li>execute() para ejecutarlas.</li>
+</ul>
 
 </body>
 </html>
